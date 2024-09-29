@@ -89,7 +89,7 @@ fun OverlappingBoxesPreview(
 
                 if (dailyRecommendationList.isNotEmpty()) {
 
-                    dailyRecommendationList[0].marryDetails.apply {
+                    dailyRecommendationList[0].wedlockDetails.apply {
 
                         GestureCardComponent(
                             image = profile,

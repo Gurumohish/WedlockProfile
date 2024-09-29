@@ -3,14 +3,14 @@ package com.appsmindstudio.wedlock_profile.utils
 import com.appsmindstudio.wedlock_profile.R
 import com.appsmindstudio.wedlock_profile.data.local.room.entity.DailyRecommendation
 import com.appsmindstudio.wedlock_profile.data.local.room.entity.ProfileList
-import com.appsmindstudio.wedlock_profile.data.model.MarryDetails
+import com.appsmindstudio.wedlock_profile.data.model.WedlockDetails
 import com.appsmindstudio.wedlock_profile.data.model.ProfileDetails
 
 object StaticDataList {
 
     val staticProfileList = listOf(
         ProfileList(
-            marryDetails = MarryDetails(
+            wedlockDetails = WedlockDetails(
                 profile = R.drawable.athulya_ravi,
                 name = "Athulya Ravi",
                 age = "1996",
@@ -25,7 +25,7 @@ object StaticDataList {
             )
         ),
         ProfileList(
-            marryDetails = MarryDetails(
+            wedlockDetails = WedlockDetails(
                 profile = R.drawable.karthi,
                 name = "Karthi",
                 age = "1980",
@@ -40,7 +40,7 @@ object StaticDataList {
             )
         ),
         ProfileList(
-            marryDetails = MarryDetails(
+            wedlockDetails = WedlockDetails(
                 profile = R.drawable.siva_karthikeya,
                 name = "Siva Karthikeya",
                 age = "1992",
@@ -55,7 +55,7 @@ object StaticDataList {
             )
         ),
         ProfileList(
-            marryDetails = MarryDetails(
+            wedlockDetails = WedlockDetails(
                 profile = R.drawable.keerthi,
                 name = "Keerthi Suresh",
                 age = "1999",
@@ -70,7 +70,7 @@ object StaticDataList {
             )
         ),
         ProfileList(
-            marryDetails = MarryDetails(
+            wedlockDetails = WedlockDetails(
                 profile = R.drawable.vijay,
                 name = "Vijay",
                 age = "1985",
@@ -88,7 +88,7 @@ object StaticDataList {
 
     val staticDailyRecList = listOf(
         DailyRecommendation(
-            marryDetails = MarryDetails(
+            wedlockDetails = WedlockDetails(
                 profile = R.drawable.priyanka,
                 name = "Priyanka",
                 age = "1996",
@@ -103,7 +103,7 @@ object StaticDataList {
             )
         ),
         DailyRecommendation(
-            marryDetails = MarryDetails(
+            wedlockDetails = WedlockDetails(
                 profile = R.drawable.anju_kurian,
                 name = "Anju kurian",
                 age = "1980",
@@ -118,7 +118,7 @@ object StaticDataList {
             )
         ),
         DailyRecommendation(
-            marryDetails = MarryDetails(
+            wedlockDetails = WedlockDetails(
                 profile = R.drawable.dulquer_salmaan,
                 name = "Dulquer Salmaan",
                 age = "1992",
@@ -133,7 +133,7 @@ object StaticDataList {
             )
         ),
         DailyRecommendation(
-            marryDetails = MarryDetails(
+            wedlockDetails = WedlockDetails(
                 profile = R.drawable.anjali,
                 name = "Anjali",
                 age = "1999",
@@ -148,7 +148,7 @@ object StaticDataList {
             )
         ),
         DailyRecommendation(
-            marryDetails = MarryDetails(
+            wedlockDetails = WedlockDetails(
                 profile = R.drawable.sai_pallavi,
                 name = "Sai Pallavi",
                 age = "1985",
