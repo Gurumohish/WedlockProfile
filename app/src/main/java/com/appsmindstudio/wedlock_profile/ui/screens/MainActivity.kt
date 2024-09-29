@@ -12,7 +12,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.appsmindstudio.wedlock_profile.ui.navigation.AppNavigation
-import com.appsmindstudio.wedlock_profile.ui.theme.MarryGestureTheme
+import com.appsmindstudio.wedlock_profile.ui.theme.WedlockProfileTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                     .fillMaxSize()
                     .background(Color.White)
             ) {
-                MarryGestureTheme {
+                WedlockProfileTheme {
                     val navController = rememberNavController()
                     AppEntryPoint(navController)
                 }

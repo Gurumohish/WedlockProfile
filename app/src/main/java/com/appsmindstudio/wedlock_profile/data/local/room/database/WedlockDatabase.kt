@@ -8,11 +8,11 @@ import com.appsmindstudio.wedlock_profile.data.local.room.entity.DailyRecommenda
 import com.appsmindstudio.wedlock_profile.data.local.room.entity.ProfileList
 
 @Database(entities = [ProfileList::class, DailyRecommendation::class], version = 1)
-abstract class MarryDatabase : RoomDatabase() {
+abstract class WedlockDatabase : RoomDatabase() {
     abstract fun profileListDao(): ProfileListDao
     abstract fun dailyRecommendationsDao(): DailyRecommendationsDao
 
     companion object {
-        const val DATABASE_NAME = "MarryGesture"
+        const val DATABASE_NAME = "WedlockProfile"
     }
 }

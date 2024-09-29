@@ -1,6 +1,6 @@
 package com.appsmindstudio.wedlock_profile.data.model
 
-data class MarryDetails(
+data class WedlockDetails(
     val profile: Int,
     val name: String,
     val age: String,

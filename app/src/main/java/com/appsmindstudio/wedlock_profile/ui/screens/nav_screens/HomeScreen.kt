@@ -85,7 +85,7 @@ fun HomeScreen(
                                 Spacer(modifier = Modifier.width(5.dp))
                             }
                             items(gestureLists) { gesture ->
-                                gesture.marryDetails.apply {
+                                gesture.wedlockDetails.apply {
                                     // This is for the cards view component
                                     ProfileCardComponent(
                                         image = profile,
